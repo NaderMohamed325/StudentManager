@@ -20,4 +20,8 @@ public class SchoolService {
         return schoolRepository.save(newSchool);
     }
 
+    public School getSchoolById(Long id) {
+        return schoolRepository.findById(id).orElse(null);
+    }
+
 }
