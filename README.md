@@ -49,7 +49,7 @@ backed by Spring MVC and Spring Data JPA, uses Jakarta namespaces, and leverages
 
 ```
 bash
-git clone <your-repo-url>
+git clone https://github.com/NaderMohamed325/StudentManager
 cd StudentManager
 ```
 
